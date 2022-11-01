@@ -1,0 +1,33 @@
+nav>ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-left: 20px;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    padding: 0px 10px;
+}
+nav li:hover{
+    background-color: lightslategray;
+}
+.drop{
+    display: none;
+    position: absolute;
+    background-color: antiquewhite;
+    padding: 0px 0px;
+    
+}
+.drop li{
+    margin: 0;
+    padding: 0;
+}
+nav > ul > li:hover > ul{
+    display: block;
+}
+nav>ul>li:hover>ul{
+    display: block;
+}
